@@ -108,3 +108,34 @@ footer {
   p { margin: 0; }
  
 }
+
+@media only screen and (max-width: 767px) {
+  .person-info {
+    .person-name {
+      line-height: 1;
+      margin-bottom: 30px;
+    }
+    .person-link {
+      margin-bottom: 30px;
+    }
+    p {
+      margin-bottom: 45px;
+    }
+  }
+
+  .project-item {
+    .project-item-title-wrap {
+      margin-bottom: 0;
+
+      .project-item-logo {
+        text-align: left;
+      }
+      .project-item-title {
+        position: relative;
+        top: 0;
+        margin-top: 10px;
+        transform: unset;
+      }
+    }
+  }
+}
