@@ -1,8 +1,10 @@
 ---
 title: Faizan Vahevaria
+description: "Web Developer with over 6 years of experience mostly focusing on Front-End using ReactJS and JAMstack websites, juggling between different timezones to serve the clients. Praised by all the clients for Clear Communication."
 
+images:
+  - "/img/faizan-vahevaria.jpeg"
 name: Faizan Vahevaria
-about: "Web Developer with over 6 years of experience mostly focusing on Front-End using ReactJS and JAMstack websites, juggling between different timezones to serve the clients. Praised by all the clients for Clear Communication."
 photo: "/img/faizan-vahevaria.jpeg"
 links:
   - icon: "github"
@@ -48,7 +50,7 @@ skills:
 
 
 projects:
-  - name: pwC - PricewaterhouseCoopers
+  - name: PwC - PricewaterhouseCoopers
     logo: /img/clients/pwc-logo.svg
     skills: ["Azure", "Hugo", "DataTable", "Azure CI/CD", "Rmarkdown"]    
     description: "Internal Data Portal and Training Docs Management System based on hugo. Design, Development, CI/CD Setup on Azure, Rmarkdown compatibility, Azure SSO(Single Sign-on), Planning, Execution."
@@ -73,5 +75,53 @@ projects:
     url: "https://ibse.iitm.ac.in/"
     description: "Multi Author, Research Paper Publishing and Institute profile website based on Hugo. Indian Institute of Technology is one of the top institutes in the world and IBSE is an entity part of IIT Madras."
 
+  - name: Thread Learning
+    logo: /img/clients/thread-learning-logo.svg
+    url: "https://www.threadlearning.com/"
+    description: "Thread is Health Tech SaaS company. I worked with them to build their website from scratch and help them rank on top for their competitors name. Eventually, they got acquired earlier this year(2020) by their competitor."
 
+  - name: Couples Resorts UK
+    logo: /img/clients/couple-resorts-uk-logo.svg
+    url: "http://couplesresorts.co.uk/"
+    description: "A very large 350+ page site migration from PHP based custom CMS to Hugo and JAMStack. The goal was to serve the website faster and update the design. Ultimately, keeping all the SEO value and adding more value by speeding up the website."
+
+  - name: Swabian Instruments 
+    logo: /img/clients/swabian-instruments-logo.png
+    url: "https://www.swabianinstruments.com/"
+    description: "WordPress to Hugo Migration and a lot of design changes down the road. Their goal was to adapt the JAMStack and improve their load time in order to improving SEO rankings."
+
+  - name: Fatah Digital
+    logo: /img/clients/fatah-digital-logo.png
+    url: "https://fatah.co/"
+    description: "I worked on Fatah Digital’s website and created a Single Page App like structure and animations and page transition animation. This was the first animations website I did."
+
+  - name: weareCWS
+    logo: /img/clients/wearcws-logo.png
+    url: "https://wearecws.com/"
+    description: "Building a new design website with all the features and animations for a Cloud Service Company."
+
+  - name: Baadal Enterprise
+    logo: /img/clients/baadal-enterprise-logo.svg
+    url: "https://baadal.co"
+    description: "My responsibility was to quickly build a SEO friendly website for Baadal Enterprise and push it live on the server. Then gradually adding more and more pages."
+
+  - name: Forestry.io 
+    logo: /img/clients/forestry-logo.svg
+    url: "https://forestry.io"
+    description: "Build many small websites to show the capabilities of their Headless CMS integration with JAMStack Static Site Generators like Hugo and Jekyll."
+
+  - name: Gardenuity
+    logo: /img/clients/gardenuity-logo.png
+    url: "https://gardenuity.com"
+    description: "JAMStack base ecommerce website."
+
+  - name: CardNet
+    logo: /img/clients/cardnet-logo.jpg
+    url: "https://card.net.in"
+    description: "Digital Visiting Card Application with really cool animation style card templates. The entire app will be based on JAMStack. Work in progress."
+
+  - name: RBCSAI - IIT Madras
+    logo: /img/clients/rbcdsai-iit-madras-logo.jpg
+    url: "https://rbcdsai.iitm.ac.in/"
+    description: "Work in Progress. This website is a complex multi author blog type website with many different sections. My responsibilities are to build the best UX by using really cool animations to make this organization look modern."
 ---

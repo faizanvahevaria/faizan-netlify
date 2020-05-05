@@ -4,19 +4,25 @@
 <section class="person-info">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 text-center">
         <img src="{{ .Params.photo }}" alt="" class="person-image">
-        <p class="person-name"></p>
+        <h1 class="person-name">{{ .Params.name }}</h1>
         <div class="person-links">
           {{ range .Params.links }}
-          <a href="{{ .url }}" class="person-link" target="_blank"><img class="person-link-icon" src="{{ .icon }}" alt="{{ $.Page.Title }}"></a>
+          <a href="{{ .url }}" class="person-link {{ .icon }}" target="_blank"></a>
           {{ end }}
         </div>
       </div>
 
       <div class="col-md-6">
-        <p class="person-info-titel">About</p>
-        <p class="person-info-about">{{ .Params.about }}</p>
+        <p class="person-info-title">About</p>
+        <p class="person-info-about">{{ .Description }}</p>
+        <p class="person-info-title">Skills</p>
+        <div class="skills-wrap">
+          {{ range .Params.skills }}
+          <span class="skills">{{ . }}</span>
+          {{ end }}
+        </div>
       </div>
 
     </div>
@@ -30,16 +36,18 @@
         <h3>Recent Projects</h3>
         {{ range .Params.Projects }}
         <div class="project-item">
-          <div class="project-item-logo">
-            <img src="{{ .logo }}">
+          <div class="row project-item-title-wrap">
+            <div class="col-md-3 project-item-logo"> <img src="{{ .logo }}" alt="{{ .name}}"></div>
+            <div class="col-md-9">
+              <h4 class="project-item-title">{{ .name }}</h4>
+            </div>
           </div>
           <div class="project-item-info">
-            <h4 class="project-item-title">{{ .name }}</h4>
             {{ with .url }} <p class="project-item-url"><a href="{{ . }}" target="_blank">{{ . }}</a></p> {{ end }}
 
             {{ with .skills }}
             <div class="project-item-skills">
-              {{ range . }} <span>{{ . }}</span> {{ end }}
+              {{ range . }} <span class="skills">{{ . }}</span> {{ end }}
             </div>
             {{ end }}
             <p class="project-item-description">{{ .description }}</p>
@@ -58,7 +66,9 @@
 
 
 
-
+<footer>
+  <p>All Rights Reserved by Faizan Vahevaria.</p>
+</footer>
 
 
 {{- if .Site.IsServer -}} {{ "<!-- Layout: _default/home.html -->" |safeHTML }} {{- end -}}

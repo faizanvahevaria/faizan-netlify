@@ -2,11 +2,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-<head>
-  {{ partial "meta.html" . }}
-  {{ partial "favicons.html" . }}
-  {{ partial "css.html" . }}
-</head>
+{{ partial "head.html" . }}
 
 <body>
   {{ if .Site.IsServer }}
